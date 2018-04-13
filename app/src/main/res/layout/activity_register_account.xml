@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context="com.example.vinove.sqlitedb2.RegisterAccountActivity">
+
+    <View
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:alpha="0.6"
+        android:background="#000000" />
+
+    <EditText
+        android:id="@+id/txtname_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="180dp"
+        android:drawableLeft="@drawable/ic_contacts_white_24dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/enter_full_name"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#cccccc" />
+
+    <EditText
+        android:id="@+id/txtemail_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtname_reg"
+        android:layout_alignLeft="@+id/txtname_reg"
+        android:layout_alignRight="@+id/txtname_reg"
+        android:layout_alignStart="@+id/txtname_reg"
+        android:layout_below="@+id/txtname_reg"
+        android:drawableLeft="@drawable/ic_email_white_24dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#cccccc" />
+
+    <EditText
+        android:id="@+id/txtpass_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtemail_reg"
+        android:layout_alignLeft="@+id/txtemail_reg"
+        android:layout_alignRight="@+id/txtemail_reg"
+        android:layout_alignStart="@+id/txtemail_reg"
+        android:layout_below="@+id/txtemail_reg"
+        android:drawableLeft="@drawable/ic_vpn_key_white_24dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#cccccc" />
+
+    <EditText
+        android:id="@+id/txtmobile_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtpass_reg"
+        android:layout_alignLeft="@+id/txtpass_reg"
+        android:layout_alignRight="@+id/txtpass_reg"
+        android:layout_alignStart="@+id/txtpass_reg"
+        android:layout_below="@+id/txtpass_reg"
+        android:drawableLeft="@drawable/ic_phone_white_24dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/enter_your_mobile"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#cccccc" />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtmobile_reg"
+        android:layout_alignLeft="@+id/txtmobile_reg"
+        android:layout_alignRight="@+id/txtmobile_reg"
+        android:layout_alignStart="@+id/txtmobile_reg"
+        android:layout_below="@+id/txtmobile_reg"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/register"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txt_success_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:gravity="center_horizontal"
+        android:text="@string/create_account"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtname_reg"
+        android:layout_alignLeft="@+id/txtname_reg"
+        android:layout_alignRight="@+id/txtname_reg"
+        android:layout_alignStart="@+id/txtname_reg"
+        android:layout_below="@+id/txt_success_name"
+        android:gravity="center_horizontal"
+        android:text="@string/after_clicking_the_register_button_you_will_be_redirected_to_login_screen"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff" />
+</RelativeLayout>

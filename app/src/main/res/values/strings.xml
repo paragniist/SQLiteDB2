@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SQLiteDB</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_mobile">Enter Your Mobile</string>
+    <string name="register">Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="after_clicking_the_register_button_you_will_be_redirected_to_login_screen">After clicking the Register Button. You will be redirected to Login Screen</string>
+    <string name="log_out">Log Out</string>
+    <string name="welcome_parag_gupta">Welcome, Parag Gupta</string>
+    <string name="click_the_image_to_upload_your_profile_picture">Click the image to upload your profile picture.</string>
+    <string name="login">LOGIN</string>
+    <string name="to">TO</string>
+    <string name="your_account">YOUR ACCOUNT</string>
+    <string name="enter_user_email">Enter User Email</string>
+    <string name="enter_user_passwrod">Enter User Passwrod</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="are_you_new_sign_up_now">Are you new? Sign up now.</string>
+    <string name="parag_gupta_mail_vinove_com">parag.gupta@mail.vinove.com</string>
+</resources>
